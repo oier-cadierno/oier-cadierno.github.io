@@ -1,0 +1,41 @@
+# --- Configuración General (Tus Datos) ---
+site_name: Oier Cadierno Duñabeitia
+site_author: Oier Cadierno Duñabeitia
+site_url: https://oier-cadierno.github.io
+
+# --- Repositorio de GitHub ---
+repo_url: https://github.com/oier-cadierno/oier-cadierno.github.io
+repo_name: oier-cadierno/oier-cadierno.github.io
+
+# --- Navegación del Sitio (Tu Estructura) ---
+nav:
+  - Inicio: index.md
+  - Sobre Mí: sobre-mi.md
+  - Proyectos: proyectos.md
+  - Contacto: contacto.md
+
+# --- Tema y Personalización (Material for MkDocs) ---
+theme:
+  name: material
+  language: es
+  
+  # Paleta de colores (tema oscuro)
+  palette:
+    scheme: slate      # ¡Esta línea activa el modo oscuro!
+    primary: 'indigo'
+    accent: 'red'
+
+  # Funcionalidades para mejorar la experiencia del usuario
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - header.autohide
+
+# --- Extras (Iconos sociales en el pie de página) ---
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/oier-cadierno # Rellenado desde tu repo_url
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:oier.cadierno04@somo.eus # ¡IMPORTANTE! Cambia esto
