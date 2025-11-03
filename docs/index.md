@@ -167,7 +167,7 @@ Técnico de sistemas con especialización en IA y Big Data, apasionado por la au
 
 ### Formación Académica
 <div class="custom-block">
-<h4><strong>Máster en Inteligencia Artificial y Big Data</strong> <span style="float: right; font-style: italic; color: #666666; font-weight: 400;">(Finaliza en 2026)</span></h4>
+<h4><strong>Especialización en Inteligencia Artificial y Big Data</strong> <span style="float: right; font-style: italic; color: #666666; font-weight: 400;">(Finaliza en 2026)</span></h4>
 <p style="margin-top: -10px;"><em>Centro de Formación Somorrostro</em></p>
 <h4 style="margin-top: 1.5em;"><strong>Grado Superior en Administración de Sistemas Informáticos en Red</strong> <span style="float: right; font-style: italic; color: #666666; font-weight: 400;">(2024)</span></h4>
 <p style="margin-top: -10px;"><em>Centro de Formación Somorrostro</em></p>
