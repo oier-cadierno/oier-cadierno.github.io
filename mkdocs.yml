@@ -1,41 +1,19 @@
-# --- Configuración General (Tus Datos) ---
+# Nombre del sitio que aparecerá en la cabecera
 site_name: Oier Cadierno Duñabeitia
-site_author: Oier Cadierno Duñabeitia
-site_url: https://oier-cadierno.github.io
+site_description: 'Portfolio profesional de Oier Cadierno Duñabeitia - Técnico de Sistemas con especialización en IA y Big Data.'
 
-# --- Repositorio de GitHub ---
-repo_url: https://github.com/oier-cadierno/oier-cadierno.github.io
-repo_name: oier-cadierno/oier-cadierno.github.io
-
-# --- Navegación del Sitio (Tu Estructura) ---
-nav:
-  - Inicio: index.md
-  - Sobre Mí: sobre-mi.md
-  - Proyectos: proyectos.md
-  - Contacto: contacto.md
-
-# --- Tema y Personalización (Material for MkDocs) ---
+# 1. Usar el tema "material"
 theme:
-  name: material
+  name: cinder
   language: es
-  
-  # Paleta de colores (tema oscuro)
-  palette:
-    scheme: slate      # ¡Esta línea activa el modo oscuro!
-    primary: 'indigo'
-    accent: 'red'
 
-  # Funcionalidades para mejorar la experiencia del usuario
-  features:
-    - navigation.tabs
-    - navigation.top
-    - search.suggest
-    - header.autohide
+# 2. Indicar la carpeta de personalizaciones
+custom_dir: stylesheets
 
-# --- Extras (Iconos sociales en el pie de página) ---
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/oier-cadierno # Rellenado desde tu repo_url
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:oier.cadierno04@somo.eus # ¡IMPORTANTE! Cambia esto
+# 3. Vincular la hoja de estilos personalizada
+extra_css:
+  - stylesheets/extra.css
+
+# Opcional pero recomendado para una navegación limpia
+nav:
+  - 'Inicio': index.md
